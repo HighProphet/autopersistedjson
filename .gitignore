@@ -1,5 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
 autopersistedjson.iml
-.idea/*
 target
-.idea
+.idea/
+src/test/
