@@ -24,14 +24,22 @@
             </plugin>
         </plugins>
     </build>
+
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+    <repositories>
+        <repository>
+            <id>Flora</id>
+            <name>Flora Repository</name>
+            <url>https://raw.github.com/HighProphet/mvn-repo/master/</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
-            <groupId>pw.highprophet.shared</groupId>
+            <groupId>pw.highprophet</groupId>
             <artifactId>shared-utils</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
